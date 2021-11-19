@@ -1,0 +1,74 @@
+button{
+  display: inline-block;
+  position: relative;
+  background: none;
+  border: none;
+  color: #0e1228;
+  font-size: 18px;
+  cursor: pointer;
+  margin: 20px 30px;
+  background: #F0F0F1;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.button-container {
+  z-index: 2;
+  position: relative;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 25px;
+}
+  
+span{
+  display: block;
+  padding: 15px 60px;
+}
+  
+#button::before, #button::after{
+  content:"";
+  width: 0;
+  height: 2px;
+  position: absolute;
+  transition: all 0.2s linear;
+  background: #0e1228;
+}
+
+span::before, span::after{
+  content:"";
+  width:2px;
+  height:0;
+  position: absolute;
+  transition: all 0.2s linear;
+  background: #0e1228;
+}
+#button:hover::before, #button:hover::after{
+  width: 100%;
+}
+
+#button:hover span::before, #button:hover span::after{
+  height: 100%;
+}
+
+.btn-4::after{
+  right:0;
+  bottom: 0;
+  transition-duration: 0.4s;
+}
+
+.btn-4 span::after{
+  right:0;
+  bottom: 0;
+  transition-duration: 0.4s;
+}
+
+.btn-4::before{
+  left: 0;
+  top: 0;
+  transition-duration: 0.4s;
+}
+
+.btn-4 span::before{
+  left: 0;
+  top: 0;
+  transition-duration: 0.4s;
+}

@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+}
+
+.header {
+  margin: 0px;
+  width: 100%;
+  background: linear-gradient(135deg, #0E1228, #0C1023);
+  height: 124px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.header-items-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 64%;
+}
+
+.header-items {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 24px;
+  color: white;
+  font-family: 'Staatliches', cursive;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.main-logo {
+  width: 106px !important;
+}
+
+#cart-icon {
+  font-size: 38px;
+  vertical-align: bottom;
+}

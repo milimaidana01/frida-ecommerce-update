@@ -1,0 +1,31 @@
+.info-to-buy-section {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  height: fit-content;
+  background-color: #776BCF;
+  margin-top: 30px 0 50px 0;
+  padding: 20px 0 50px 0;
+}
+  
+.title {
+  font-size: 25px;
+  font-family: 'Staatliches', cursive;
+  color: #F0F0F1;
+  padding: 30px 50px 10px 50px;
+  text-align: start;
+}
+  
+.text {
+  font-size: 20px;
+  font-family: 'PT Sans Narrow', sans-serif;
+  color: #F0F0F1;
+  padding: 6px 50px 6px 50px;
+  text-align: start;
+}
+
+.icons {
+  vertical-align: bottom;
+  padding-right: 10px;
+}
+
